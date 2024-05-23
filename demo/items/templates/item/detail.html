@@ -33,11 +33,11 @@
  
  
     <div class='grid grid-cols-3 gap-3'>
-        {% for item in related_item %}
+        {% for item in related_items %}
             <div>
                 <a href="{% url 'item:detail' item.id %}">
                     <div>
-                        <img src="{{ item.image.url }}" class='rounded-t-xl'>  {% comment %}w-full h-48 object-cove {% endcomment %}
+                        <img src="{{ item.image.url }}" class='rounded-t-xl'> 
                     </div>
  
                     <div class='p-6 bg-white rounded-b-xl'>
