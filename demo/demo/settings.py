@@ -43,7 +43,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'POLL',
     'items',
-    'dashboard'
+    'dashboard',
+    'conversation',
 ]
 
 MIDDLEWARE = [
